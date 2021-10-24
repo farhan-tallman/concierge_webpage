@@ -583,7 +583,7 @@ section {
   text-align: center;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  box-shadow: 0px 2px 15px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 2px 15px rgba(127, 137, 161, 1);
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -831,11 +831,12 @@ section {
 }
 .pricing .box {
   padding: 20px;
-  background: #f9f9f9;
+  background: #191919;
   text-align: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(127, 137, 161, 1);
 }
 .pricing .box h3 {
   font-weight: 400;
@@ -843,7 +844,7 @@ section {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #191919;
+  color: #f4f4f4;
 }
 .pricing .box h4 {
   font-size: 42px;
@@ -865,7 +866,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: #191919;
+  color: #f4f4f4;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
